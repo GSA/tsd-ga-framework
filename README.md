@@ -1,5 +1,5 @@
 # TSD Google Analytics Framework
-This repository supports the "Technology Solutions Division's (TSD) Google Analytics Framework for all digital services" GitHub pages site.
+This repository documents the GSA IT Technology Solutions Division's (TSD) Google Analytics Framework for all digital services.
 
 Due to the ever evolving nature of digital services, this framework will be updated from time to time to incorporate the latest standards to better support the use of Google Analytics.
 
