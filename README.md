@@ -8,10 +8,6 @@ Due to the ever evolving nature of digital services, this framework will be upda
 All Digital Services that are developed or maintained by the TSD division will leverage Google Analytics from the beginning. This is a firm requirement and should be included in the requirements of all projects. This means that each project must understand how this framework affects them and make the appropriate preparations to ensure that once deployed, the digital service is integrated with Google Analytics.
 
 
-### Every Page and View Should be Tracked
-Modern web applications blur the line between web pages and web applications. At a bare minimum, every "page" must include the appropriate Google Analytics Tracking framework or code.
-
-
 ### Account and Property Structure
 As our division matures in it's usage of Google Analytics, we have noticed how quickly management of the Google Analytics accounts get out of control. In order to better manage this, we provide the following rules based upon [guidance from Google](https://support.google.com/analytics/answer/1009618?hl=en).
 
@@ -21,6 +17,10 @@ As our division matures in it's usage of Google Analytics, we have noticed how q
 3. Each Digital Service, should have a single "Property" under that Account. 
 4. Development and Test environments should use the same property, but views should be constructed to segment the data.
 
+
+
+### Every Page and View Should be Tracked
+Modern web applications blur the line between web pages and web applications. At a bare minimum, every "page" must include the appropriate Google Analytics Tracking framework or code.
 
 
 ### Google Analytics Frameworks
@@ -40,7 +40,10 @@ To combat this, your application should use [Angulartics](http://luisfarzati.git
 The United States Digital Service (USDS) Digital Analytics Program (DAP) has standardized their implementation of Google Analytics using [Google Analytics on Steroids (GAS)](https://github.com/CardinalPath/gas). If the other 2 frameworks do not apply, the GAS framework should be used.
 
 
+### DAP Suport
+In support of the USDS DAP program, all TSD digital services should be implementing the [USDS DAP](http://www.digitalgov.gov/services/dap/) tracking code on all websites. This is an additional tracking code in support of the DAP program.
 
+**NOTE: DAP does note replace  the TSD Division Google Analytics**
 
 
 
