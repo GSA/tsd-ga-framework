@@ -17,7 +17,7 @@ As our division matures in it's usage of Google Analytics, we have noticed how q
 3. Each Digital Service, should have a single "Property" under that Account. 
 4. Development and Test environments should use the same property, but views should be constructed to segment the data.
 
-
+![Image](/assets/ga-account-structure.png)
 
 ### Every Page and View Should be Tracked
 Modern web applications blur the line between web pages and web applications. At a bare minimum, every "page" must include the appropriate Google Analytics Tracking framework or code.
