@@ -13,7 +13,7 @@ Modern web applications blur the line between web pages and web applications. At
 
 
 ### Account and Property Structure
-Much of this guidance focuses around the consolidation of Google Analytics accounts. As our division matures in it's usage of Google Analytics, we have noticed how quickly management of the Google Analytics accounts get out of control. In order to better manage this, we provide the following rules.
+As our division matures in it's usage of Google Analytics, we have noticed how quickly management of the Google Analytics accounts get out of control. In order to better manage this, we provide the following rules based upon [guidance from Google](https://support.google.com/analytics/answer/1009618?hl=en).
 
 
 1. All Internal to GSA/FAS Digital Services will use a consolidated "TSD" Google Analytics Account.
