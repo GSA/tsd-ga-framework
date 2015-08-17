@@ -155,7 +155,7 @@ The filter should be constructed as shown below:
 One of the best ways to prevent spammers is to stop them at the source. When providing a Digital Service using an Apache webserver, this is best accomplished through modifying the root .htaccess file. As part of the TSD Google Analtyics Framework, all Apache based webservers should modify its root .htaccess file and implement the "Ultimate Referral Blacklist".
 
 
-![Download Referral Blacklist](/assets/ultimate-referrer-blacklist.txt)
+[Referral Blacklist](/assets/ultimate-referrer-blacklist.txt)
 
 
 
@@ -169,10 +169,6 @@ One of the best ways to prevent spammers is to stop them at the source. When pro
 
 #### Monthly Referral Spam Standard Operating Procedure.
 Each month, the Google Analytics administrator for the property, should go into the production views standard reporting and run the Acquisition -> Overview -> All Traffic -> Referrals report. If any website exist that are not already in your referrer blacklist or account level filter, they should be added. Please post an issue to this repository, and we will be happy to add your finding to the list!
-
-
-
-**Reference:** [Optimizesmart.com](http://www.optimizesmart.com/geek-guide-removing-referrer-spam-google-analytics/)
 
 
 
